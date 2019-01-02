@@ -8,6 +8,9 @@
 - [ ] pointfree working and exposed to local machine via vscode
 - [ ] pointful working and exposed to local machine via vscode
 
+# future
+- [ ] http://hackage.haskell.org/package/ekg and https://github.com/haskell/haskell-ide-engine/blob/bb7d97af4dab6566c4776e96b050ae7dab704820/src/Haskell/Ide/Engine/Options.hs#L51
+
 ## vim
 - [ ] hie [in docker] + vim [in docker]
 - [ ] hlint working via vim
