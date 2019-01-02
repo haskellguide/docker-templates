@@ -17,11 +17,11 @@ RUN nix-env -iA cachix -f https://github.com/NixOS/nixpkgs/tarball/889c72032f859
 RUN cachix -v use hie-nix
 
 # haskell ide engine
-RUN nix-env -iA hie84 -f https://github.com/domenkozar/hie-nix/tarball/master
+RUN nix-env -iA hie84 -f https://github.com/domenkozar/hie-nix/tarball/a7ef4c4ceef1dbf46aabff68a4b9bd86d41d0886
 
 # haskell
 RUN nix-env -iA \
-   nixpkgs.haskell.compiler.ghc843 \
+   nixpkgs.haskell.compiler.ghc844 \
    nixpkgs.haskellPackages.ghcid \
    nixpkgs.haskellPackages.hasktags \
    nixpkgs.haskellPackages.hlint \
