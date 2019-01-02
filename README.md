@@ -1,7 +1,12 @@
 # next
 
-## vscode
+## mvp
+- [ ] route log https://github.com/haskell/haskell-ide-engine/blob/bb7d97af4dab6566c4776e96b050ae7dab704820/src/Haskell/Ide/Engine/Options.hs#L32 into vscode pane
+- [ ] filesystem voodoo - project root - https://github.com/haskell/haskell-ide-engine/blob/bb7d97af4dab6566c4776e96b050ae7dab704820/src/Haskell/Ide/Engine/Options.hs#L45
 - [ ] hie [in docker] + vscode [local machine]
+
+## vscode
+
 - [ ] hlint working and exposed to local machine via vscode
 - [ ] hoogle built and exposed to local machine
 - [ ] liquid working and exposed to local machine via vscode
