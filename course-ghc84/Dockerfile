@@ -26,6 +26,5 @@ RUN nix-env -iA \
    nixpkgs.haskellPackages.hasktags \
    nixpkgs.haskellPackages.hlint \
    nixpkgs.haskellPackages.hoogle \
-   nixpkgs.haskellPackages.liquid \
    nixpkgs.haskellPackages.pointfree \
    nixpkgs.haskellPackages.pointful
