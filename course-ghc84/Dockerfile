@@ -1,4 +1,4 @@
-FROM sydneyhaskell/nix
+FROM haskellguide/nix
 
 #RUN nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
 RUN nix-channel --update
