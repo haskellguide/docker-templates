@@ -1,5 +1,9 @@
 FROM haskellguide/nix
 
+LABEL "maintainer"="Geoffrey Huntley <ghuntley@ghuntley.com>"
+LABEL "repository"="https://github.com/haskellguide/docker-templates"
+#LABEL "version"="1.0.0"
+
 #RUN nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
 RUN nix-channel --update
 

@@ -1,6 +1,10 @@
 # Dockerfile to create an environment that contains the Nix package manager.
 FROM alpine
 
+LABEL "maintainer"="Geoffrey Huntley <ghuntley@ghuntley.com>"
+LABEL "repository"="https://github.com/haskellguide/docker-templates"
+#LABEL "version"="1.0.0"
+
 ARG NIX_VERSION
 ENV NIX_VERSION ${NIX_VERSION:-2.1.3}
 ARG LANG
